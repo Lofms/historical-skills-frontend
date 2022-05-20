@@ -1,0 +1,115 @@
+.logo {
+    float: left;
+    margin-top: -66px;
+  }
+  
+  @media only screen and (max-width: 1450px) {
+    .logo {
+      display: none !important;
+    }
+  }
+  
+  image {
+    max-height: 100%;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: #eee !important;
+    width: 100% !important;
+  }
+  
+  form {
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+  }
+  
+  fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0px !important;
+    border: 2px groove !important;
+    border-radius: 5px;
+  }
+  
+  legend {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+    margin-bottom: 0.5rem !important;
+    float: none !important;
+    width: auto !important;
+  }
+  
+  /* Header/Logo Title */
+  
+  header {
+    padding: 60px;
+    text-align: center;
+    background-color: #00005a;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .box {
+    max-width: 950px !important;
+    margin: auto;
+  }
+  
+  .test {
+    width: 100%;
+    max-width: 950px;
+    text-align: center;
+  }
+  
+  label {
+    width: 175px;
+  }
+  
+  input, select {
+    width: 175px;
+    border-radius: 5px !important;
+    height: auto;
+  }
+  
+  button {
+    background-color: #fff;
+    margin-top: 20px !important;
+    border-radius: 5px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  .container {
+    padding: 2px 16px;
+    width: 200px;
+  }
+  
+  .bg_images {
+    background-image: url(/images/bg.jpg);
+  }
