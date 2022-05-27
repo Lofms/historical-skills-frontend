@@ -1,10 +1,3 @@
-buttonElement = document.getElementById('searchBtn')
-occupationField = document.getElementById('occupationField')
-
-occupationField.addEventListener('change',(event) => {showHideEle(this,'occupationGroup','')});
-buttonElement.addEventListener("click", getStatistics(document.getElementById('search')), false);
-
-
 let labels = [
 
 ];

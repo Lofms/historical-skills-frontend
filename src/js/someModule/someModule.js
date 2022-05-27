@@ -1,24 +1,3 @@
-buttonElement = document.getElementById('searchBtn')
-occupationField = document.getElementById('occupationField')
-
-occupationField.addEventListener('change',(event) => {showHideEle(this,'occupationGroup','')});
-buttonElement.addEventListener("click", getStatistics(document.getElementById('search')), false);
-
-
-let labels = [
-
-];
-
-const data = {
-    labels: labels,
-    datasets: []
-};
-
-const config = {
-    type: 'line',
-    data: data,
-    options: {}
-};
 
 
 const arrColors =  [
